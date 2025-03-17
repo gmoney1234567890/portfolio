@@ -1,0 +1,56 @@
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000; /* so that your nav bar is always on top */
+    /* Additional styling */
+    }
+
+.contact-icon {
+    vertical-align: middle;
+    margin-right: 4px;
+    width: 28px;
+    height: 24px;
+}
+
+header p {
+    font-size: 1em;
+    color: #555;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* please add the effect here */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+   }
+
+
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+    background-color: dodgerblue;
+    background-image: radial-gradient(whitesmoke, dodgerblue)
+    }
+    h1, h2 {
+    font-size: 1.5rem;
+    }
+
+   }
+
+@media screen and (min-width: 992px) {
+    body {
+    background-color: rebeccapurple;
+    background-image: radial-gradient(whitesmoke, rebeccapurple)
+    }
+   }
